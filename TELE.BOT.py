@@ -10,6 +10,7 @@ except Exception as e:
     print(e)
     sys.exit(1)
 
+
 try:
     BOT_TOKEN = os.getenv("BOT_TOKEN")
 
