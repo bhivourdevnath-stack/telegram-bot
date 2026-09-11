@@ -52,9 +52,14 @@ headers = {
 # try another model instead of crashing on the first 429 response.
 # This is a backup list. If the first model is busy, the code tries another one.
 FALLBACK_MODELS = [
-    "minimax/minimax-m3:free",
-    "minimax/minimax-m2.7:free",
     "poolside/laguna-s-2.1:free",
+    "inclusionai/ling-3.0-flash-fin:free",
+    "inclusionai/ling-3.0-flash-sante:free",
+    "nex-agi/nex-n2.5-pro:free",
+    "thinkingmachines/inkling-small:free",
+    "poolside/laguna-xs-2.1:free",
+    "liquid/lfm-2.5-2.6b:free",
+    
 ]
 
 
@@ -194,7 +199,7 @@ def build_payload(raw_input):
     user_message = {"role": "user", "content": user_text}
 
     return {
-        "model": "minimax/minimax-m3:free",
+        "model": "poolside/laguna-s-2.1:free",
         "messages": [system_message, user_message],
         "reasoning": {"enabled": True},
     }
