@@ -53,7 +53,6 @@ headers = {
 # This is a backup list. If the first model is busy, the code tries another one.
 FALLBACK_MODELS = [
     "minimax/minimax-m3:free",
-    "google/gemma-4-31b-it:free",
     "minimax/minimax-m2.7:free",
     "poolside/laguna-s-2.1:free",
 ]
