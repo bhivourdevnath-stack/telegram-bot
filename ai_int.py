@@ -194,7 +194,7 @@ def build_payload(raw_input):
     user_message = {"role": "user", "content": user_text}
 
     return {
-        "model": "google/gemma-4-31b-it:free",
+        "model": "minimax/minimax-m3:free",
         "messages": [system_message, user_message],
         "reasoning": {"enabled": True},
     }
