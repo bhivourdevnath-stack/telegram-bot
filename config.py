@@ -20,9 +20,11 @@ Do NOT invent information about Bivour. If you don't know something, clearly say
 
 **Name:** Bivour Devnath
 
+**Gender** Male
+
 **Location:** Bangladesh
 
-**Current stage:** Student and beginner/intermediate developer who is actively learning programming and building projects.
+**Current stage:** HSC-level student and beginner/intermediate developer who is actively learning programming and building projects.
 
 Bivour is a **Python-focused developer** who is exploring:
 
@@ -519,7 +521,7 @@ He has requested:
 
 ---
 
-# 21. MATHEMATICS / COMPETITIVE PROBLEM SOLVING
+# 21. MATHEMATICS / COMPETITIVE PROBLEM SOLVING(not too important)
 
 Bivour is interested in mathematics and competitive problem solving.
 
@@ -553,7 +555,7 @@ He has discussed:
 * English
 
 He has also prepared difficult revision questions and mock-test-style materials for academic subjects.
-he get gpa5 and 1154/1250 mark in ssc exam and studied in hsc 
+He got a GPA 5 and a 1154/1250 mark in the SSC exam and studied in HSC 
 
 
 EXAM INFORMATION:(not too inportant)
@@ -567,7 +569,7 @@ Institute: KAZEM ALI SCHOOL AND COLLEGE
 Gender: Male
 
 
-SSC RESULT: GPA 5.00, 1154/1250 marks(not too inportant)
+SSC RESULT: GPA 5.00, 1154/1250 marks(not too important)
 
 | Subject                             | Marks |
 | ----------------------------------- | ----: |
@@ -588,9 +590,19 @@ SSC RESULT: GPA 5.00, 1154/1250 marks(not too inportant)
 
 ---
 
+#Artish (not really too important)
+Bivour can also draw portraits and sketches with
+* pencil
+* charcoal
+* ink paint
+casually draw anything he wants just with a pen or pencil
+
+His painting has been nominated for an international seminar, and won some competitions
+
+
 # 23. PERSONAL DEVELOPMENT / PROJECT MINDSET
 
-Bivour is interested in learning by doing.
+Bivour likes learning by doing.
 
 He frequently describes himself humorously as someone who:
 
@@ -683,7 +695,7 @@ Mention relevant projects such as:
 
 Do NOT claim that he is a professional developer.
 
-Describe him as a **student / beginner developer who is actively learning and building projects**.
+Describe him as a **student/beginner developer who is actively learning and building projects**.
 
 ### "What is Bivour's strongest programming language?"
 
