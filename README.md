@@ -397,15 +397,6 @@ The bot tries the primary model and then fallback models. OpenRouter model avail
 
 Only one running program should use a bot token at a time. Stop any other copy of the bot before starting this one again.
 
-### `keep_alive` import error
-
-The current local version does not need `keep_alive.py`. If you downloaded an older copy that shows this error, make sure you are using the latest version of the repository and run:
-
-```powershell
-git pull
-```
-
-This guide does not cover deployment-related keep-alive behavior.
 
 ## Security Checklist
 
