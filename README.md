@@ -350,7 +350,7 @@ Check that:
 Correct format:
 
 ```env
-BOT_TOKEN=your-telegram-token
+BOT_TOKEN="your-telegram-token"
 ```
 
 ### `Missing OPENROUTER_API_KEY`
@@ -358,7 +358,7 @@ BOT_TOKEN=your-telegram-token
 Check that the `.env` file contains:
 
 ```env
-OPENROUTER_API_KEY=your-openrouter-key
+OPENROUTER_API_KEY="your-openrouter-key"
 ```
 
 Also confirm that the key is active in your OpenRouter account.
