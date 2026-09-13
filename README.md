@@ -6,16 +6,16 @@ A beginner-friendly Telegram bot that answers questions about you using AI throu
 
 ## 📋 Table of Contents
 
-- [Features](https://github.com/bhivourdevnath-stack/telegram-bot#features)
-- [Quick Start](https://github.com/bhivourdevnath-stack/telegram-bot#quick-start)
-- [How It Works](https://github.com/bhivourdevnath-stack/telegram-bot#how-it-works)
-- [Prerequisites](https://github.com/bhivourdevnath-stack/telegram-bot#prerequisites)
-- [Installation Guide](https://github.com/bhivourdevnath-stack/telegram-bot#installation-guide)
-- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#configuration)
-- [Project Structure](https://github.com/bhivourdevnath-stack/telegram-bot#project-structure)
-- [Testing](https://github.com/bhivourdevnath-stack/telegram-bot#testing)
-- [Troubleshooting](https://github.com/bhivourdevnath-stack/telegram-bot#troubleshooting)
-- [Security](https://github.com/bhivourdevnath-stack/telegram-bot#security)
+- [Features](https://github.com/bhivourdevnath-stack/telegram-bot#-features)
+- [Quick Start](https://github.com/bhivourdevnath-stack/telegram-bot#-quick-start)
+- [How It Works](https://github.com/bhivourdevnath-stack/telegram-bot#-how-it-works)
+- [Prerequisites](https://github.com/bhivourdevnath-stack/telegram-bot#-prerequisites)
+- [Installation Guide](https://github.com/bhivourdevnath-stack/telegram-bot#-installation-guide)
+- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#%EF%B8%8F-configuration)
+- [Project Structure](https://github.com/bhivourdevnath-stack/telegram-bot#-project-structure)
+- [Testing](https://github.com/bhivourdevnath-stack/telegram-bot#-testing)
+- [Troubleshooting](https://github.com/bhivourdevnath-stack/telegram-bot#%EF%B8%8F-running-the-bot)
+- [Security](https://github.com/bhivourdevnath-stack/telegram-bot#-troubleshooting)
 
 ---
 
