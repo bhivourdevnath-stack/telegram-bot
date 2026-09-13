@@ -19,7 +19,7 @@ This guide explains exactly how to copy this project from GitHub and run it on y
 Follow these steps in order. Do not skip the steps for creating the two API keys.
 
 ```powershell
-git clone https://github.com/bhivourdevnath-stack/telegram_botv1.git
+git clone https://github.com/bhivourdevnath-stack/telegram-bot.git
 cd telegram_botv1
 python -m venv .venv
 .venv\Scripts\Activate.ps1
