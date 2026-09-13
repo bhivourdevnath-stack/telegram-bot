@@ -6,16 +6,16 @@ A beginner-friendly Telegram bot that answers questions about you using AI throu
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [How It Works](#how-it-works)
-- [Prerequisites](#prerequisites)
-- [Installation Guide](#installation-guide)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Security](#security)
+- [Features](https://github.com/bhivourdevnath-stack/telegram-bot#features)
+- [Quick Start](https://github.com/bhivourdevnath-stack/telegram-bot#quick-start)
+- [How It Works](https://github.com/bhivourdevnath-stack/telegram-bot#how-it-works)
+- [Prerequisites](https://github.com/bhivourdevnath-stack/telegram-bot#prerequisites)
+- [Installation Guide](https://github.com/bhivourdevnath-stack/telegram-bot#installation-guide)
+- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#configuration)
+- [Project Structure](https://github.com/bhivourdevnath-stack/telegram-bot#project-structure)
+- [Testing](https://github.com/bhivourdevnath-stack/telegram-bot#testing)
+- [Troubleshooting](https://github.com/bhivourdevnath-stack/telegram-bot#troubleshooting)
+- [Security](https://github.com/bhivourdevnath-stack/telegram-bot#security)
 
 ---
 
