@@ -5,23 +5,6 @@ import requests
 from dotenv import load_dotenv
 from config import BOT_REP
 
-# ============================================================
-# Beginner guide for this file
-# ============================================================
-# This file connects your Telegram bot to an AI model from OpenRouter.
-# In simple words:
-#   1. it reads the AI key
-#   2. prepares the message to send
-#   3. sends it to the online AI service
-#   4. gets the answer back
-#   5. returns the answer to the bot so Telegram can show it
-#
-# Think of it like this:
-#   - Telegram sends a message
-#   - this file turns it into a clean text question
-#   - OpenRouter answers the question
-#   - the answer goes back to the user
-# ============================================================
 
 # Load variables from .env so the API key is not hardcoded in the script.
 load_dotenv()
@@ -32,15 +15,10 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise SystemExit(
         "Missing OPENROUTER_API_KEY.\n"
-        "Set it first in config.py."
     )
 
-# AI_REPRESENTATIVE is the system prompt.
-# It tells the AI how it should behave or speak.
-AI_REPRESENTATIVE = BOT_REP
 
 # These headers are required by the OpenRouter API for authentication and metadata.
-# They are like ID cards showing who is making the request.
 headers = {
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
@@ -48,20 +26,19 @@ headers = {
     "X-Title": "Say my name to use the ai",
 }
 
-# If the free model is rate-limited or temporarily unavailable,
-# try another model instead of crashing on the first 429 response.
+
 # This is a backup list. If the first model is busy, the code tries another one.
+# some models may be rate-limited or unavailable, so check that the model you want to use is available on OpenRouter.
 FALLBACK_MODELS = [
-    "minimax/minimax-m3:free",
-    "google/gemma-4-31b-it:free",
-    "minimax/minimax-m2.7:free",
+    "inclusionai/ling-3.0-flash-fin:free",
     "poolside/laguna-s-2.1:free",
+
 ]
 
 
-# OpenRouter sometimes returns an error object instead of a normal completion payload.
-# This helper turns that into a readable message.
-# In simple words: if the AI service says "error", this function makes the error easy to read.
+
+# if the AI service says "error", this function makes the error easy to read.
+
 def extract_error_message(data):
     """
     Convert an OpenRouter error response into a simple text message.
@@ -80,20 +57,8 @@ def extract_error_message(data):
         return f"OpenRouter API error ({code}): {message}"
     return f"OpenRouter API error: {message}"
 
-
+# This function sends a request to OpenRouter and handles errors.
 def call_openrouter(payload, fallback_models=None):
-    """
-    Send the request to OpenRouter and retry with fallback models if needed.
-
-    Why this matters:
-    - Some AI models may be busy or rate-limited.
-    - This function tries the first model, then backups if needed.
-
-    In beginner terms:
-    - payload = the question we want to send
-    - models = list of AI models to try
-    - if one model fails, try the next one
-    """
     models = []
     primary_model = payload.get("model")
     if primary_model:
@@ -160,10 +125,6 @@ def normalize_input(value):
     Telegram sends a Message object, but OpenRouter wants a normal string.
     This function pulls the message text out safely.
 
-    Beginner explanation:
-    - if the input is already text, keep it
-    - if it is a Telegram message object, read its .text field
-    - if it is empty, return an empty string
     """
     if value is None:
         return ""
@@ -177,20 +138,9 @@ def normalize_input(value):
     return str(value)
 
 
+# Real magic happens here. This function builds the request payload for OpenRouter.
 def build_payload(raw_input):
-    """
-    Build the JSON body that OpenRouter expects.
-
-    This is the exact format the AI API understands:
-    - model: which AI model to use
-    - messages: conversation history
-    - reasoning: if we want the model to explain its thinking
-
-    Beginner explanation:
-    We are making a structured message package for the AI.
-    The AI needs a role and content for each message.
-    """
-    system_message = {"role": "system", "content": AI_REPRESENTATIVE}
+    system_message = {"role": "system", "content": BOT_REP}
     user_text = normalize_input(raw_input)
     user_message = {"role": "user", "content": user_text}
 
@@ -203,14 +153,6 @@ def build_payload(raw_input):
 
 def main(raw_input):
     """
-    Main AI entry point.
-
-    1. Convert Telegram message into plain text
-    2. Build the request payload
-    3. Send it to OpenRouter
-    4. Read the AI response and return it
-
-    Beginner explanation:
     This is the main engine of the bot.
     It receives the user's message, asks the AI for help,
     and then gives the AI answer back to Telegram.
