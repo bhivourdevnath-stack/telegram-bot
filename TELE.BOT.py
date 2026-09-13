@@ -85,13 +85,11 @@ def show_help(message):
 @bot.message_handler(func=lambda message: True)
 def message(message):
     try:
-<<<<<<< HEAD
-=======
         print(f"Received message: {message.text}")
         
         # ai_int.main(message) returns two values: reasoning and final answer.
         # We only need the final text for Telegram.
->>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
+
         _, ai_text = ai_int.main(message)
         
         print(f"AI Response: {ai_text}")
