@@ -97,7 +97,7 @@ git clone https://github.com/bhivourdevnath-stack/telegram_botv1.git
 4. Enter the new project folder:
 
 ```powershell
-cd telegram_botv1
+cd telegram_bot
 ```
 
 5. Confirm that the project files were downloaded:
@@ -180,7 +180,7 @@ Telegram bots are created and managed through the official **BotFather** account
 4. Send `/start`.
 5. Send `/newbot`.
 6. Enter a display name for your bot, such as `Bivour AI Representative`.
-7. Enter a username for your bot. The username must end in `bot`, for example `bivour_ai_bot`.
+7. Enter a username for your bot. The username must end in `bot`, for example, `bivour_ai_bot`.
 8. BotFather will reply with an HTTP API token.
 9. Copy that token and keep it private.
 
@@ -209,7 +209,7 @@ Depending on the model and your account, OpenRouter may require credits or have 
 
 ## Step 6: Create and Configure `.env`
 
-Create a file named exactly `.env` in the same folder as `TELE.BOT.py`.
+Go to the file named `.env` in the same folder as `TELE.BOT.py`.
 
 Add these two lines:
 
