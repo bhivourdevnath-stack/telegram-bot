@@ -429,8 +429,8 @@ Your personal AI Telegram bot is ready when the program runs and responds to Tel
 
 ## 📄 License
 
-[Add your license here if applicable]
+
 
 ## 🤝 Contributing
 
-[Add contribution guidelines if applicable]
+
