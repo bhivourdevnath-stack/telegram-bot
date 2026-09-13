@@ -3,6 +3,11 @@ import sys
 import telebot
 from config import Name
 from dotenv import load_dotenv
+<<<<<<< HEAD
+=======
+import ai_int
+import traceback
+>>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
 
 
 # This part loads environment variables from the .env file (mostly for api key)
@@ -62,7 +67,13 @@ The AI replies with a text answer.
 # This command is triggered when the user sends /start or /hello.
 @bot.message_handler(commands=["start", "hello"])
 def send_welcome(message):
+<<<<<<< HEAD
         bot.reply_to(message, f"How are you doing? Feel free to ask me anything about {Name}!")
+=======
+    # This command sends a simple greeting when the user starts the bot.
+    bot.reply_to(message, "How are you doing? Feel free to ask me anything about Bivour!")
+
+>>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
 
 #you can add more commands here if you want to expand the bot's functionality.
 #just follow the same pattern as the /start and /help commands above.
@@ -79,16 +90,29 @@ def show_help(message):
 @bot.message_handler(func=lambda message: True)
 def message(message):
     try:
+<<<<<<< HEAD
+=======
+        print(f"Received message: {message.text}")
+        
+        # ai_int.main(message) returns two values: reasoning and final answer.
+        # We only need the final text for Telegram.
+>>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
         _, ai_text = ai_int.main(message)
+        
+        print(f"AI Response: {ai_text}")
         bot.reply_to(message, ai_text)
+        
     except Exception as e:
-        print("Error generating AI reply:", e)
-        bot.reply_to(message, "Sorry, I hit an error while generating the reply.")
+        error_msg = f"Error generating AI reply: {str(e)}"
+        print(error_msg)
+        print("Full traceback:")
+        traceback.print_exc()
+        
+        # Send user a more detailed error message
+        bot.reply_to(message, f"Sorry, I hit an error: {str(e)[:100]}")
 
 
 
 print(" Bot is running...")
 bot.infinity_polling(timeout=10, long_polling_timeout=5)
-
-
 

@@ -31,8 +31,18 @@ headers = {
 # some models may be rate-limited or unavailable, so check that the model you want to use is available on OpenRouter.
 FALLBACK_MODELS = [
     "inclusionai/ling-3.0-flash-fin:free",
+<<<<<<< HEAD
     "poolside/laguna-s-2.1:free",
 
+=======
+    "inclusionai/ling-3.0-flash-sante:free",
+    "nex-agi/nex-n2.5-pro:free",
+    "dots-studio/dots-3-note-preview:free",
+    "thinkingmachines/inkling-small:free",
+    "poolside/laguna-xs-2.1:free",
+    "liquid/lfm-2.5-2.6b:free",
+    
+>>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
 ]
 
 
@@ -145,7 +155,7 @@ def build_payload(raw_input):
     user_message = {"role": "user", "content": user_text}
 
     return {
-        "model": "google/gemma-4-31b-it:free",
+        "model": "inclusionai/ling-3.0-flash-fin:free",
         "messages": [system_message, user_message],
         "reasoning": {"enabled": True},
     }

@@ -1,3 +1,8 @@
 pyTelegramBotAPI
 python-dotenv
+<<<<<<< HEAD
 requests
+=======
+flask
+
+>>>>>>> 0278fb53861dceb4f5ec3c6bf5d808f23ddd7d9c
