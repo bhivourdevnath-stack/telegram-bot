@@ -1,7 +1,10 @@
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/bhivourdevnath-stack/py-test/refs/heads/main/tele.svg" alt="hero.svg">
 </p>
 
+<p align="center">
+ <img width="1503" height="914" alt="image" src="https://github.com/user-attachments/assets/c62ce394-606c-49ad-8394-3977db24ba70" />
+</p>
 
 ## 📋 Table of Contents
 
