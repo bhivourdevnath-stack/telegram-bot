@@ -175,13 +175,18 @@ python -m pip install -r requirements.txt
 
 ### Step 4: Create Telegram Bot Token
 
+<p align="center">
+<img width="1440" height="921" alt="image" src="https://github.com/user-attachments/assets/322c28ef-d862-40a0-8303-5ddbafacc94f" />
+</p>
+
 1. Open **Telegram**
-2. Search for **@BotFather** (official verified account)
+2. Search for [**@BotFather**](https://t.me/botfather) (official verified account)
 3. Send `/start`
 4. Send `/newbot`
 5. Enter a display name (e.g., `Bivour AI Representative`)
 6. Enter a username ending in `bot` (e.g., `bivour_ai_bot`)
 7. Copy the token returned (format: `123456789:AAExampleToken`)
+<img width="895" height="415" alt="image" src="https://github.com/user-attachments/assets/c04b584a-bbcf-490f-866d-0b655f0587ae" />
 
 **⚠️ Keep this token private!**
 
@@ -191,9 +196,13 @@ python -m pip install -r requirements.txt
 
 1. Go to [openrouter.ai](https://openrouter.ai/)
 2. Sign up or log in
-3. Navigate to **Keys** or **API Keys** in your dashboard
+3. Navigate to **Keys** or **API Keys** in your dashboard 
+<img width="920" height="717" alt="image" src="https://github.com/user-attachments/assets/8ba7dbfa-a14b-40d9-a590-de80007009ee" />
+
 4. Create a new key (name it `telegram-ai-bot`)
 5. Copy immediately (format: `sk-or-...`)
+<img width="589" height="319" alt="image" src="https://github.com/user-attachments/assets/d5a8f94d-a8c1-4350-9451-8e838f525cba" />
+
 
 **Note:** Depending on your account, OpenRouter may require credits or have usage limits.
 
