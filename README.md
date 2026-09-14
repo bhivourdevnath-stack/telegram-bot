@@ -1,8 +1,7 @@
-# 🤖 AI Telegram Bot
+<p>
+  <img src="https://raw.githubusercontent.com/bhivourdevnath-stack/py-test/refs/heads/main/tele.svg" alt="hero.svg">
+</p>
 
-A beginner-friendly Telegram bot that answers questions about you using AI through [OpenRouter](https://openrouter.ai/).
-
----
 
 ## 📋 Table of Contents
 
