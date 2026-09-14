@@ -2,6 +2,9 @@
   <img src="https://raw.githubusercontent.com/bhivourdevnath-stack/py-test/refs/heads/main/tele.svg" alt="hero.svg">
 </p>
 
+<h1></h1><br>
+
+
 <p align="center">
  <img width="1503" height="914" alt="image" src="https://github.com/user-attachments/assets/c62ce394-606c-49ad-8394-3977db24ba70" />
 </p>
@@ -111,6 +114,7 @@ Open PowerShell and run:
 
 ```powershell
 # Navigate to your desired folder
+# Give the folder location where you want to save the project 
 cd $HOME\Documents
 
 # Clone the project
@@ -125,6 +129,9 @@ code .
 ```
 
 **Note:** If `code .` doesn't work, open VS Code manually → **File > Open Folder** → select the `telegram_bot` folder.
+
+**Note:** If you're new to PowerShell, you can do it directly in VS Code, but I recommend doing it in PowerShell because it's fast, and in the future, if you want to be a programmer, then you have to know those normal PowerShell commands
+
 
 ---
 
