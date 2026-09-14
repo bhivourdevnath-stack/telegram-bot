@@ -24,7 +24,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Pre-built Telegram Integration** - Message handling and commands ready to use
 - **AI-Powered Responses** - Answers questions about you via OpenRouter
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### For Windows PowerShell:
 
@@ -65,7 +65,7 @@ python TELE.BOT.py
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```
 User Message
@@ -91,7 +91,7 @@ The personal information is included in the AI system prompt, so the bot acts as
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before you start, ensure you have:
 
@@ -106,7 +106,7 @@ No prior experience building Telegram bots needed—basic command-line familiari
 
 ---
 
-## 📚 Installation Guide
+##  Installation Guide
 
 ### Step 1: Clone the Repository
 
@@ -188,7 +188,7 @@ python -m pip install -r requirements.txt
 7. Copy the token returned (format: `123456789:AAExampleToken`)
 <img width="895" height="415" alt="image" src="https://github.com/user-attachments/assets/c04b584a-bbcf-490f-866d-0b655f0587ae" />
 
-**⚠️ Keep this token private!**
+**Keep this token private!**
 
 ---
 
@@ -274,7 +274,7 @@ Keep information **accurate and truthful** for better AI responses.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 | File | Purpose |
 |------|---------|
@@ -290,7 +290,7 @@ Keep information **accurate and truthful** for better AI responses.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Before running the bot, verify the setup with tests:
 
@@ -308,7 +308,7 @@ These tests verify:
 
 ---
 
-## ▶️ Running the Bot
+##  Running the Bot
 
 Ensure all prerequisites are met:
 
@@ -341,7 +341,7 @@ Bot is running...
 
 ---
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### ❌ `BOT_TOKEN is missing or empty`
 
@@ -413,7 +413,7 @@ The bot tries the primary model and falls back to alternatives. If all models fa
 
 ---
 
-## 🔒 Security Checklist
+##  Security Checklist
 
 - 🔐 Keep `.env` private
 - 🔐 Keep Telegram bot token confidential
@@ -425,7 +425,7 @@ The bot tries the primary model and falls back to alternatives. If all models fa
 
 ---
 
-## 📖 After Setup: Typical Workflow
+##  After Setup: Typical Workflow
 
 ```powershell
 # Activate environment
@@ -445,10 +445,10 @@ Your personal AI Telegram bot is ready when the program runs and responds to Tel
 
 ---
 
-## 📄 License
+##  License
 
 
 
-## 🤝 Contributing
+##  Contributing
 
 
