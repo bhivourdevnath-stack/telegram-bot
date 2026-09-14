@@ -9,7 +9,7 @@
  <img width="1503" height="914" alt="image" src="https://github.com/user-attachments/assets/c62ce394-606c-49ad-8394-3977db24ba70" />
 </p>
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](https://github.com/bhivourdevnath-stack/telegram-bot#-features)
 - [Quick Start](https://github.com/bhivourdevnath-stack/telegram-bot#-quick-start)
