@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/bhivourdevnath-stack/py-test/refs/heads/main/tele.svg" alt="hero.svg">
 </p>
 
-<h1></h1><br>
+
 
 <h1>About</h1> 
 
