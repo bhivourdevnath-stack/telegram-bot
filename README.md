@@ -4,10 +4,10 @@
 
 <h1></h1><br>
 
-## About
+<h1>About</h1> 
 
 
-Telegram-bot is a beginner-friendly, AI-powered Telegram bot designed to answer questions about you by acting as your personal AI representative. Built with Python, it integrates seamlessly with Telegram and OpenRouter's AI models to provide intelligent, context-aware responses.
+<h4> Telegram-bot is a beginner-friendly, AI-powered Telegram bot designed to answer questions about you by acting as your personal AI representative. Built with Python, it integrates seamlessly with Telegram and AI models to provide intelligent, context-aware responses</h4>
 
 ## What It Does
 
