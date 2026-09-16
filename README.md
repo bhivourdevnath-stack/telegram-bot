@@ -273,6 +273,8 @@ My goal is to become better at backend and web development.
 - ✅ Your interests and goals
 - ✅ Learning journey or education
 - ✅ GitHub work
+  
+** Note: ** The more information AI gets, the better the bot's answer becomes. So try to give information about yourself in detail.
 
 **What to exclude:**
 - ❌ Passwords or API keys
