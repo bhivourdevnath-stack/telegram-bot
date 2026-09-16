@@ -2,38 +2,38 @@
   <img src="https://raw.githubusercontent.com/bhivourdevnath-stack/py-test/refs/heads/main/tele.svg" alt="hero.svg">
 </p>
 
-# 🤖 About
+# About
 
 > **A beginner-friendly, AI-powered Telegram bot that answers questions about you by acting as your personal AI representative.**
 
 Built with Python, this project integrates seamlessly with Telegram and OpenRouter's AI models. Whether you're learning Python, exploring AI, or building your first bot—this project is designed for you.
 
 **Key Highlights:**
-- 🟢 **Beginner-Friendly** - No prior bot-building experience needed
-- 🤖 **AI-Powered** - Uses OpenRouter for intelligent, context-aware responses
-- ⚡ **Ready to Use** - Pre-built Telegram integration, just configure and run
-- 📚 **Well-Documented** - Complete setup guide with troubleshooting
+-  **Beginner-Friendly** - No prior bot-building experience needed
+-  **AI-Powered** - Uses OpenRouter for intelligent, context-aware responses
+-  **Ready to Use** - Pre-built Telegram integration, just configure and run
+-  **Well-Documented** - Complete setup guide with troubleshooting
 
 ---
 
-## 🎯 What It Does
+##  What It Does
 
 Your bot works like this:
 
 ```
-📱 User sends message on Telegram
+ User sends message on Telegram
          ↓
-🔌 Bot receives it via TELE.BOT.py
+ Bot receives it via TELE.BOT.py
          ↓
-🧠 Combines message with your personal info (from user_config.py)
+ Combines message with your personal info (from user_config.py)
          ↓
-🌐 Sends enriched request to OpenRouter's AI service
+ Sends enriched request to OpenRouter's AI service
          ↓
-✨ AI generates a personalized response
+ AI generates a personalized response
          ↓
-💬 Bot replies to you on Telegram
+ Bot replies to you on Telegram
          ↓
-🎉 You get an intelligent answer about yourself
+ You get an intelligent answer about yourself
 ```
 
 **The Magic:** Your personal information is included in the AI's system prompt, so the bot acts as your **personal AI representative**—it knows who you are and answers questions contextually.
