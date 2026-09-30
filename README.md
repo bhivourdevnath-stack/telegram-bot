@@ -86,7 +86,7 @@ Your bot works like this:
 ```powershell
 # Clone the repository
 git clone https://github.com/bhivourdevnath-stack/telegram-bot.git
-cd telegram_botv1
+cd telegram_bot
 
 # Create and activate virtual environment
 python -m venv .venv
