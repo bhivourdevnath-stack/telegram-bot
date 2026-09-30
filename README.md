@@ -482,7 +482,7 @@ python TELE.BOT.py
 
 Your personal AI Telegram bot is ready when the program runs and responds to Telegram messages!
 
-** Give a star if you like my work **  ....
+**Give a star if you like my work**  
 
 ---
 
