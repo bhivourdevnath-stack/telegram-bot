@@ -101,7 +101,7 @@ python -m pip install -r requirements.txt
 python -m unittest test_ai_int.py
 python TELE.BOT.py
 ```
-
+- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#%EF%B8%8F-configuration)
 ---
 
 ##  How It Works
