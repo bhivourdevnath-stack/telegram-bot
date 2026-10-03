@@ -247,7 +247,7 @@ python -m pip install -r requirements.txt
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Step 6: Create `.env` File
 
