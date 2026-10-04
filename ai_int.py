@@ -30,7 +30,7 @@ headers = {
 # This is a backup list. If the first model is busy, the code tries another one.
 # some models may be rate-limited or unavailable, so check that the model you want to use is available on OpenRouter.
 FALLBACK_MODELS = [
-    "qwen/qwen3.8-27b:free",
+    "inclusionai/ling-3.0-flash-sante:free",
     "poolside/laguna-s-2.1:free",
 ]
 
@@ -144,7 +144,7 @@ def build_payload(raw_input):
     user_message = {"role": "user", "content": user_text}
 
     return {
-        "model": "qwen/qwen3.8-27b:free",
+        "model": "inclusionai/ling-3.0-flash-sante:free",
         "messages": [system_message, user_message],
         "reasoning": {"enabled": True},
     }
