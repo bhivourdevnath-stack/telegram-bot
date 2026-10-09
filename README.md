@@ -55,7 +55,7 @@ Your bot works like this:
 - [How It Works](https://github.com/bhivourdevnath-stack/telegram-bot#-how-it-works)
 - [Prerequisites](https://github.com/bhivourdevnath-stack/telegram-bot#-prerequisites)
 - [Installation Guide](https://github.com/bhivourdevnath-stack/telegram-bot#-installation-guide)
-- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#%EF%B8%8F-configuration)
+- [Configuration](https://github.com/bhivourdevnath-stack/telegram-bot#configuration)
 - [Project Structure](https://github.com/bhivourdevnath-stack/telegram-bot#-project-structure)
 - [Testing](https://github.com/bhivourdevnath-stack/telegram-bot#-testing)
 - [Troubleshooting](https://github.com/bhivourdevnath-stack/telegram-bot#-troubleshooting)
